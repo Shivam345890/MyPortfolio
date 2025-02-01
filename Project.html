@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Projects</title>
+        <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #6a1b9a, #d500f9);
+        }
+        .header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 30px 10px;
+        }
+        .project-card {
+            background-color: #1e272e;
+            border-radius: 12px;
+            width: 280px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+        .project-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-details {
+            padding: 20px;
+        }
+        .project-details h3 {
+            font-size: 1.8rem;
+            color: #27ad80;
+            margin-bottom: 10px;
+        }
+        .project-details p {
+            font-size: 1rem;
+            color: #b2bec3;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background-color: #27ad80;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #1e8e5e;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #2d3436;
+            color: #b2bec3;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+    </style>
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>My Projects</h1>
+            <p>Explore the creative projects I've worked on!</p>
+        </div>
+
+        <div class="projects">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Netflix-Logo.jpg" alt="Project 1">
+                </div>
+                <div class="project-details">
+                    <h3>Netflix Clone</h3>
+                    <p>This is a Netflix clone that I built using React.js,
+                        Redux, and Firebase for authentication and data
+                        management.</p>
+                    <a href="https://github.com/YourGitHub/Netflix-Clone"
+                        class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Ecommerce-logo.jpg" alt="Project 2">
+                </div>
+                <div class="project-details">
+                    <h3>E-commerce Platform</h3>
+                    <p>An e-commerce platform built with Node.js, MongoDB, and
+                        Express to provide a seamless shopping experience.</p>
+                    <a href="https://github.com/YourGitHub/E-commerce-Platform"
+                        class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="Creative-logo.jpg" alt="Project 3">
+                </div>
+                <div class="project-details">
+                    <h3>Creative Apps</h3>
+                    <p>A collection of fun and creative apps I developed to
+                        bring unique features and improve productivity.</p>
+                    <a href="https://github.com/YourGitHub/Creative-Apps"
+                        class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Shivam Pandey. All rights reserved.</p>
+        </div>
+
+    </body>
+</html>
